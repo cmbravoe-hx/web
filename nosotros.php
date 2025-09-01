@@ -96,10 +96,9 @@ header("Pragma: no-cache");
 		<hr>
 		
 		
-      <footer>
-        <p>&copy; <?php echo date('Y')?> Hexadecimal</p>
-		<a href="mailto:contacto@hexadecimal.com.mx">contacto@hexadecimal.com.mx</a>
-      </footer>
+	<?php
+		include 'footer.php';
+	?>
 	  
 	</div><!-- /container -->
 
